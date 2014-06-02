@@ -37,7 +37,6 @@ Description: parsing/formatting/validating phone numbers - development files
  This package contains the static libraries and include files.
 
 Package: libphonenumber6
-Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
