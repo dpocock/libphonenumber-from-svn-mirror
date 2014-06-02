@@ -17,7 +17,7 @@ Build-Depends: ant,
                libboost-system-dev,
                junit,
                ant-optional
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Section: libs
 Homepage: http://code.google.com/p/libphonenumber/
 Vcs-Browser: http://code.google.com/p/libphonenumber/source/browse/
