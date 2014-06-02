@@ -1,2 +1,2 @@
 version=3
-https://github.com/libphonenumber/libphonenumber/tags .*/tarball/(\d[\d\.]+)
+https://github.com/libphonenumber/libphonenumber/tags .*/tarball/libphonenumber-(\d[\d\.]+)
