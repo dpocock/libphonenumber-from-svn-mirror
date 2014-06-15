@@ -1,5 +1,5 @@
-libphonenumber (6.1~svn668-1) unstable; urgency=medium
+libphonenumber (6.2~svn671-1) unstable; urgency=medium
 
   * Initial packaging (Closes: #741258)
 
- -- Daniel Pocock <daniel@pocock.pro>  Wed, 04 Jun 2014 12:35:20 +0200
+ -- Daniel Pocock <daniel@pocock.pro>  Sun, 15 Jun 2014 13:11:35 +0200
