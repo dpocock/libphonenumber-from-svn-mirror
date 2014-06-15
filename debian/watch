@@ -1,2 +1,3 @@
 version=3
-https://github.com/libphonenumber/libphonenumber/tags .*/tarball/libphonenumber-(\d[\d\.]+)
+https://github.com/libphonenumber/libphonenumber/tags \
+  .*/archive/libphonenumber-(\d[\d\.]+).tar.gz

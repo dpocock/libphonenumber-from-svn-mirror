@@ -3,20 +3,20 @@ Priority: optional
 Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
 Uploaders: Daniel Pocock <daniel@pocock.pro>, Fredrik Roubert <roubert@google.com>
 Build-Depends: ant,
+               ant-optional,
                cmake,
                debhelper (>= 9),
                default-jdk | java-sdk,
                javahelper (>= 0.34),
+               junit,
                libboost-dev (>= 1.40),
+               libboost-system-dev (>= 1.40),
                libboost-thread-dev (>= 1.40),
                libgtest-dev,
                libicu-dev (>= 4.4),
                libprotobuf-dev (>= 2.4),
                libre2-dev,
-               protobuf-compiler,
-               libboost-system-dev,
-               junit,
-               ant-optional
+               protobuf-compiler
 Standards-Version: 3.9.5
 Section: libs
 Homepage: http://code.google.com/p/libphonenumber/
