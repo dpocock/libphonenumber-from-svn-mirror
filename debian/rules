@@ -22,7 +22,7 @@ ANT ?= ant
 CMAKE ?= cmake
 JAVA_HOME ?= /usr/lib/jvm/default-java
 # mvn must be used in offline mode and using the local repository directory
-MVN ?= mvn-debian
+MVN ?= mvn-debian -e -X
 
 CMAKE_FLAGS := -DCMAKE_INSTALL_PREFIX=/usr
 CPP_BUILD := cpp/build
