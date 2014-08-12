@@ -1,0 +1,14 @@
+diff --git a/java/build.xml b/java/build.xml
+index 18e30b2..590ad4d 100644
+--- a/java/build.xml
++++ b/java/build.xml
+@@ -185,6 +185,9 @@
+   <target name="jar" depends="compile">
+     <mkdir dir="${jar.dir}"/>
+     <jar destfile="${jar.dir}/${ant.project.name}.jar">
++      <manifest>
++        <attribute name="Main-Class" value="com.google.i18n.phonenumbers.EntryPoint"/>
++      </manifest>
+       <fileset dir="${classes.dir}">
+         <include name="**/*.class"/>
+         <exclude name="**/*Test*"/>
