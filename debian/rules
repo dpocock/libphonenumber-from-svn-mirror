@@ -21,6 +21,8 @@
 ANT ?= ant
 CMAKE ?= cmake
 JAVA_HOME ?= /usr/lib/jvm/default-java
+# mvn must be used in offline mode and using the local repository directory
+MVN ?= mvn-debian
 
 CMAKE_FLAGS := -DCMAKE_INSTALL_PREFIX=/usr
 CPP_BUILD := cpp/build
@@ -52,11 +54,10 @@ override_dh_auto_configure:
 	mkdir -p $(CPP_BUILD) && cd $(CPP_BUILD) && $(CMAKE) $(CMAKE_FLAGS) ..
 
 override_dh_auto_build:
+	( cd tools/java && $(MVN) package )
 	mkdir java/lib
 	ln -s /usr/share/java/junit4.jar java/lib/junit-4.8.1.jar
 	$(ANT) -f $(JAVA_BUILD).xml jar
-	mkdir -p tools/java/cpp-build/target
-	ln -s `readlink -f java/build/jar/libphonenumber.jar` tools/java/cpp-build/target/cpp-build-1.0-SNAPSHOT-jar-with-dependencies.jar
 	$(MAKE) -C $(CPP_BUILD) phonenumber phonenumber-shared
 
 override_dh_auto_test:
@@ -77,3 +78,4 @@ override_dh_auto_install:
 override_dh_auto_clean:
 	-test -d $(CPP_BUILD) && $(MAKE) -C $(CPP_BUILD) clean
 	-$(ANT) -f $(JAVA_BUILD).xml clean
+	-( cd tools/java && $(MVN) clean )

@@ -14,8 +14,13 @@ Build-Depends: ant,
                libboost-thread-dev (>= 1.40),
                libgtest-dev,
                libicu-dev (>= 4.4),
+               libmaven-compiler-plugin-java,
+               libmaven-jar-plugin-java,
                libprotobuf-dev (>= 2.4),
                libre2-dev,
+               libservlet2.5-java,
+               maven2,
+               maven-debian-helper,
                protobuf-compiler
 Standards-Version: 3.9.5
 Section: libs
