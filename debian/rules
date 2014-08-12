@@ -52,6 +52,8 @@ override_dh_auto_configure:
 	mkdir -p $(CPP_BUILD) && cd $(CPP_BUILD) && $(CMAKE) $(CMAKE_FLAGS) ..
 
 override_dh_auto_build:
+	mkdir java/lib
+	ln -s /usr/share/java/junit4.jar java/lib/junit-4.8.1.jar
 	$(ANT) -f $(JAVA_BUILD).xml jar
 	$(MAKE) -C $(CPP_BUILD) phonenumber phonenumber-shared
 
