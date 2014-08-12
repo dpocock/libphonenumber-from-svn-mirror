@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The Libphonenumber Authors
+# Copyright (C) 2014 The Libphonenumber Authors
 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,12 +11,15 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
+# Data retrieved from ITU update (5.10.2012), found here:
+# https://drive.google.com/open?id=0B0ip3SV5XgRjZ3poMVNJSkxLUmM&authuser=0
 
-99620|Aktel
-99651|Katel
-99654|Aktel
-99655|ALFA Telecom
-99656|Winline
-99657|Sotel
-99670|Nur Telecom
-99677|Sky mobile
+961788|MTC Touch
+9617890|MTC Touch
+9617891|MTC Touch
+9617892|MTC Touch
+9617893|MTC Touch
+9617894|MTC Touch
+961791|Alfa
+961793|Alfa
