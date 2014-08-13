@@ -16,10 +16,14 @@ License: Apache-2.0
  License version 2.0 can be found in the file
  `/usr/share/common-licenses/Apache-2.0'.
 
+Files: cpp/src/phonenumbers/utf/rune.c
+ cpp/src/phonenumbers/utf/utf.h
+ cpp/src/phonenumbers/utf/utfdef.h
+Copyright: 1998-2002, Lucent Technologies
+License: MIT
+
 Files: cpp/src/phonenumbers/base/*
  tools/cpp/src/base/*
- cpp/src/phonenumbers/utf/rune.c
- cpp/src/phonenumbers/utf/utf.h
 Copyright: 2006-2012, The Chromium Authors
 License: BSD
 
@@ -30,6 +34,17 @@ License: Apache-2.0
  On Debian systems, the full text of the Apache
  License version 2.0 can be found in the file
  `/usr/share/common-licenses/Apache-2.0'.
+
+License: MIT
+ Permission to use, copy, modify, and distribute this software for any
+ purpose without fee is hereby granted, provided that this entire notice
+ is included in all copies of any software which is or includes a copy
+ or modification of this software and in all copies of the supporting
+ documentation for such software.
+ THIS SOFTWARE IS BEING PROVIDED "AS IS", WITHOUT ANY EXPRESS OR IMPLIED
+ WARRANTY.  IN PARTICULAR, NEITHER THE AUTHORS NOR LUCENT TECHNOLOGIES MAKE ANY
+ REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY
+ OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.
 
 License: BSD
  Redistribution and use in source and binary forms, with or without
