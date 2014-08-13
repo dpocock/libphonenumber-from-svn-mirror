@@ -1,4 +1,4 @@
-libphonenumber (6.3~svn680-1) unstable; urgency=medium
+libphonenumber (6.3~svn680-2) unstable; urgency=medium
 
   * Initial packaging (Closes: #741258)
 
