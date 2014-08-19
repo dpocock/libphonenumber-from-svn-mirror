@@ -17,3 +17,4 @@
 net.kindleit maven-gae-plugin * * * *
 org.apache.maven.plugins maven-assembly-plugin * * * *
 org.mortbay.jetty maven-jetty-plugin * * * *
+org.sonatype.oss oss-parent * * * *
