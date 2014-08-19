@@ -16,6 +16,7 @@
 
 net.kindleit maven-gae-plugin * * * *
 org.apache.maven.plugins maven-assembly-plugin * * * *
+org.apache.maven.plugins maven-javadoc-plugin * * * *
 org.apache.maven.plugins maven-release-plugin * * * *
 org.apache.maven.plugins maven-source-plugin * * * *
 org.mortbay.jetty maven-jetty-plugin * * * *
