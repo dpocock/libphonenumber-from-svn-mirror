@@ -1,3 +1,9 @@
+libphonenumber (6.3~svn681-3) unstable; urgency=medium
+
+  * Remove Build-Depends-Indep as Java needed for C++ build.
+
+ -- Daniel Pocock <daniel@pocock.pro>  Tue, 19 Aug 2014 14:41:08 +0200
+
 libphonenumber (6.3~svn681-2) unstable; urgency=medium
 
   * Remove patch for Maven plugin versions.
