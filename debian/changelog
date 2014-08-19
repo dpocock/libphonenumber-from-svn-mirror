@@ -1,3 +1,9 @@
+libphonenumber (6.3~svn681-4) unstable; urgency=medium
+
+  * Fix for issue with large unsigned long.
+
+ -- Daniel Pocock <daniel@pocock.pro>  Tue, 19 Aug 2014 15:32:10 +0200
+
 libphonenumber (6.3~svn681-3) unstable; urgency=medium
 
   * Remove Build-Depends-Indep as Java needed for C++ build.
