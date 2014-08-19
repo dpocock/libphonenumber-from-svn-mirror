@@ -74,7 +74,7 @@ build/libphonenumber6::
 # move /usr/lib/* to a proper multiarch location.
 #override_dh_auto_install:
 common-install-arch::
-	#dh_auto_install --builddirectory=$(CPP_BUILD)
+	dh_auto_install --builddirectory=$(CPP_BUILD)
 	mkdir -p debian/tmp/usr/lib-$(DEB_HOST_MULTIARCH)
 	mv debian/tmp/usr/lib/* debian/tmp/usr/lib-$(DEB_HOST_MULTIARCH)
 	mv debian/tmp/usr/lib-$(DEB_HOST_MULTIARCH) \
