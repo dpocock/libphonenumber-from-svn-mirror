@@ -1,3 +1,9 @@
+libphonenumber (6.3~svn681-2) unstable; urgency=medium
+
+  * Remove patch for Maven plugin versions.
+
+ -- Daniel Pocock <daniel@pocock.pro>  Tue, 19 Aug 2014 14:00:20 +0200
+
 libphonenumber (6.3~svn681-1) unstable; urgency=medium
 
   * Latest upstream code.
