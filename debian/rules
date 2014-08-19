@@ -83,5 +83,5 @@ common-install-arch::
 #override_dh_auto_clean:
 clean::
 	-test -d $(CPP_BUILD) && $(MAKE) -C $(CPP_BUILD) clean
-	-$(ANT) -f $(JAVA_BUILD).xml clean
-	-( cd tools/java && $(MVN) clean )
+	#-$(ANT) -f $(JAVA_BUILD).xml clean
+	#-( cd tools/java && $(MVN) clean )
