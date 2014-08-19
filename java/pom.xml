@@ -8,9 +8,8 @@
   <url>http://code.google.com/p/libphonenumber/</url>
 
   <parent>
-    <groupId>org.sonatype.oss</groupId>
-    <artifactId>oss-parent</artifactId>
-    <version>7</version>
+    <groupId>com.googlecode.libphonenumber</groupId>
+    <artifactId>libphonenumber-build-parent</artifactId>
   </parent>
 
   <description>
