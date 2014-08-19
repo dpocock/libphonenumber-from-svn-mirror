@@ -1,3 +1,9 @@
+libphonenumber (6.3~svn681-1) unstable; urgency=medium
+
+  * Latest upstream code.
+
+ -- Daniel Pocock <daniel@pocock.pro>  Tue, 19 Aug 2014 10:15:18 +0200
+
 libphonenumber (6.3~svn680-2) unstable; urgency=medium
 
   * Initial packaging (Closes: #741258)
