@@ -26,7 +26,7 @@
 #     Empty by default. [mh_install]
 #
 pom.xml
-tools/java/pom.xml --ignore
+tools/java/pom.xml
 tools/java/common/pom.xml
 tools/java/cpp-build/pom.xml
 tools/java/data/pom.xml
