@@ -34,6 +34,17 @@ Homepage: http://code.google.com/p/libphonenumber/
 Vcs-Browser: http://code.google.com/p/libphonenumber/source/browse/
 Vcs-Svn: http://libphonenumber.googlecode.com/svn/trunk/
 
+Package: libphonenumber6-java
+Section: java
+Architecture: all
+Depends: ${misc:Depends}, ${maven:Depends}
+Recommends: ${maven:OptionalDepends}
+Description: parsing/formatting/validating phone numbers - java
+ Google's common C++ and Java library for parsing, formatting, storing and
+ validating international phone numbers.
+ .
+ This package contains the runtime library JARs for Java users.
+
 Package: libphonenumber6-dev
 Section: libdevel
 Architecture: any
@@ -56,14 +67,3 @@ Description: parsing/formatting/validating phone numbers
  validating international phone numbers.
  .
  This package contains the runtime libraries for C++ users.
-
-Package: libphonenumber6-java
-Section: java
-Architecture: all
-Depends: ${misc:Depends}, ${maven:Depends}
-Recommends: ${maven:OptionalDepends}
-Description: parsing/formatting/validating phone numbers - java
- Google's common C++ and Java library for parsing, formatting, storing and
- validating international phone numbers.
- .
- This package contains the runtime library JARs for Java users.
