@@ -1,3 +1,9 @@
+libphonenumber (6.3~svn681-5) unstable; urgency=medium
+
+  * Ensure JARs are installed to the correct locations.
+
+ -- Daniel Pocock <daniel@pocock.pro>  Wed, 20 Aug 2014 10:28:18 +0200
+
 libphonenumber (6.3~svn681-4) unstable; urgency=medium
 
   * Fix for issue with large unsigned long.
