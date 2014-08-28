@@ -1,8 +1,8 @@
-libphonenumber (6.3~svn696-1) unstable; urgency=medium
+libphonenumber (6.3~svn698-1) unstable; urgency=medium
 
   * Latest upstream snapshot.
 
- -- Daniel Pocock <daniel@pocock.pro>  Wed, 27 Aug 2014 19:39:32 +0200
+ -- Daniel Pocock <daniel@pocock.pro>  Thu, 28 Aug 2014 10:59:31 +0200
 
 libphonenumber (6.3~svn681-5) unstable; urgency=medium
 
