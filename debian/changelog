@@ -1,3 +1,9 @@
+libphonenumber (6.3~svn698-2) unstable; urgency=medium
+
+  * Add patches for JDK 1.5 build.
+
+ -- Daniel Pocock <daniel@pocock.pro>  Tue, 02 Sep 2014 20:47:56 +0200
+
 libphonenumber (6.3~svn698-1) unstable; urgency=medium
 
   * Latest upstream snapshot.
